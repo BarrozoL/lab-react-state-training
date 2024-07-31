@@ -2,7 +2,6 @@ import { useState } from "react";
 import LikeButton from "./components/LikeButton";
 import Counter from "./components/Counter";
 import ClickablePicture from "./components/ClickablePicture";
-import Dice from "./Components/Dice";
 import "./App.css";
 
 function App() {
@@ -16,8 +15,6 @@ function App() {
       <Counter />
 
       <ClickablePicture />
-
-      <Dice />
     </>
   );
 }
